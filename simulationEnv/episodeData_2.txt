@@ -1,0 +1,675 @@
+
+==================================================
+Episode: 1
+==================================================
+Initial State:
+
+    Query Embedding: [0.37454012 0.95071431 0.73199394 0.59865848 0.15601864] (Represents the semantic meaning of the current query)
+    User Expertise: 0.16 (0: Novice, 1: Expert)
+    Active Engine: None
+    Task Progress: 0.00 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.06 (0: Not relevant, 1: Highly relevant)
+    
+
+------------------------------
+Step 1:
+Action: Query FE (0)
+
+Result:
+
+    Query Embedding: [0.37454012 0.95071431 0.73199394 0.59865848 0.15601864] (Represents the semantic meaning of the current query)
+    User Expertise: 0.16 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 0.10 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.11 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 1.54
+
+------------------------------
+Step 2:
+Action: Activate IE (1)
+
+Result:
+
+    Query Embedding: [0.37454012 0.95071431 0.73199394 0.59865848 0.15601864] (Represents the semantic meaning of the current query)
+    User Expertise: 0.16 (0: Novice, 1: Expert)
+    Active Engine: IE
+    Task Progress: 0.25 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.11 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 3.04
+
+------------------------------
+Step 3:
+Action: Query FE (0)
+
+Result:
+
+    Query Embedding: [0.37454012 0.95071431 0.73199394 0.59865848 0.15601864] (Represents the semantic meaning of the current query)
+    User Expertise: 0.16 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 0.35 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.16 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 4.29
+
+------------------------------
+Step 4:
+Action: Query FE (0)
+
+Result:
+
+    Query Embedding: [0.37454012 0.95071431 0.73199394 0.59865848 0.15601864] (Represents the semantic meaning of the current query)
+    User Expertise: 0.16 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 0.45 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.21 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 5.54
+
+------------------------------
+Step 5:
+Action: Query FE (0)
+
+Result:
+
+    Query Embedding: [0.37454012 0.95071431 0.73199394 0.59865848 0.15601864] (Represents the semantic meaning of the current query)
+    User Expertise: 0.16 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 0.55 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.26 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 6.79
+
+------------------------------
+Step 6:
+Action: Activate IE (1)
+
+Result:
+
+    Query Embedding: [0.37454012 0.95071431 0.73199394 0.59865848 0.15601864] (Represents the semantic meaning of the current query)
+    User Expertise: 0.16 (0: Novice, 1: Expert)
+    Active Engine: IE
+    Task Progress: 0.70 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.26 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 8.29
+
+------------------------------
+Step 7:
+Action: Query FE (0)
+
+Result:
+
+    Query Embedding: [0.37454012 0.95071431 0.73199394 0.59865848 0.15601864] (Represents the semantic meaning of the current query)
+    User Expertise: 0.16 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 0.80 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.31 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 9.54
+
+------------------------------
+Step 8:
+Action: Refine Query (3)
+
+Result:
+
+    Query Embedding: [0.86617615 0.60111501 0.70807258 0.02058449 0.96990985] (Represents the semantic meaning of the current query)
+    User Expertise: 0.16 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 0.75 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.83 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 9.66
+
+------------------------------
+Step 9:
+Action: Activate IE (1)
+
+Result:
+
+    Query Embedding: [0.86617615 0.60111501 0.70807258 0.02058449 0.96990985] (Represents the semantic meaning of the current query)
+    User Expertise: 0.16 (0: Novice, 1: Expert)
+    Active Engine: IE
+    Task Progress: 0.90 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.83 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 13.16
+
+------------------------------
+Step 10:
+Action: Query FE (0)
+
+Result:
+
+    Query Embedding: [0.86617615 0.60111501 0.70807258 0.02058449 0.96990985] (Represents the semantic meaning of the current query)
+    User Expertise: 0.16 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 1.00 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.88 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 14.41
+
+------------------------------
+Step 11:
+Action: Refine Query (3)
+
+Result:
+
+    Query Embedding: [0.21233911 0.18182497 0.18340451 0.30424224 0.52475643] (Represents the semantic meaning of the current query)
+    User Expertise: 0.16 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 0.95 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.43 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 11.66
+
+------------------------------
+Step 12:
+Action: Refine Query (3)
+
+Result:
+
+    Query Embedding: [0.29122914 0.61185289 0.13949386 0.29214465 0.36636184] (Represents the semantic meaning of the current query)
+    User Expertise: 0.16 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 0.90 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.46 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 11.28
+
+------------------------------
+Step 13:
+Action: Refine Query (3)
+
+Result:
+
+    Query Embedding: [0.78517596 0.19967378 0.51423444 0.59241457 0.04645041] (Represents the semantic meaning of the current query)
+    User Expertise: 0.16 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 0.85 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.61 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 11.54
+
+------------------------------
+Step 14:
+Action: Refine Query (3)
+
+Result:
+
+    Query Embedding: [0.17052412 0.06505159 0.94888554 0.96563203 0.80839735] (Represents the semantic meaning of the current query)
+    User Expertise: 0.16 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 0.80 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.30 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 9.52
+
+------------------------------
+Step 15:
+Action: Activate IE (1)
+
+Result:
+
+    Query Embedding: [0.17052412 0.06505159 0.94888554 0.96563203 0.80839735] (Represents the semantic meaning of the current query)
+    User Expertise: 0.16 (0: Novice, 1: Expert)
+    Active Engine: IE
+    Task Progress: 0.95 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.30 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 11.02
+
+------------------------------
+Step 16:
+Action: Activate IE (1)
+
+Result:
+
+    Query Embedding: [0.17052412 0.06505159 0.94888554 0.96563203 0.80839735] (Represents the semantic meaning of the current query)
+    User Expertise: 0.16 (0: Novice, 1: Expert)
+    Active Engine: IE
+    Task Progress: 1.10 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.30 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 32.52
+
+Episode terminated: Task completed successfully
+
+Episode 1 finished.
+Total steps: 16
+Total reward: 163.82
+
+==================================================
+Episode: 2
+==================================================
+Initial State:
+
+    Query Embedding: [0.09767211 0.68423303 0.44015249 0.12203823 0.49517691] (Represents the semantic meaning of the current query)
+    User Expertise: 0.03 (0: Novice, 1: Expert)
+    Active Engine: None
+    Task Progress: 0.00 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.91 (0: Not relevant, 1: Highly relevant)
+    
+
+------------------------------
+Step 1:
+Action: Refine Query (3)
+
+Result:
+
+    Query Embedding: [0.25877998 0.66252228 0.31171108 0.52006802 0.54671028] (Represents the semantic meaning of the current query)
+    User Expertise: 0.03 (0: Novice, 1: Expert)
+    Active Engine: None
+    Task Progress: -0.05 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.18 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 0.42
+
+------------------------------
+Step 2:
+Action: Activate IE (1)
+
+Result:
+
+    Query Embedding: [0.25877998 0.66252228 0.31171108 0.52006802 0.54671028] (Represents the semantic meaning of the current query)
+    User Expertise: 0.03 (0: Novice, 1: Expert)
+    Active Engine: IE
+    Task Progress: 0.10 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.18 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 1.92
+
+------------------------------
+Step 3:
+Action: Query FE (0)
+
+Result:
+
+    Query Embedding: [0.25877998 0.66252228 0.31171108 0.52006802 0.54671028] (Represents the semantic meaning of the current query)
+    User Expertise: 0.03 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 0.20 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.23 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 3.17
+
+------------------------------
+Step 4:
+Action: Activate IE (1)
+
+Result:
+
+    Query Embedding: [0.25877998 0.66252228 0.31171108 0.52006802 0.54671028] (Represents the semantic meaning of the current query)
+    User Expertise: 0.03 (0: Novice, 1: Expert)
+    Active Engine: IE
+    Task Progress: 0.35 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.23 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 4.67
+
+------------------------------
+Step 5:
+Action: Query FE (0)
+
+Result:
+
+    Query Embedding: [0.25877998 0.66252228 0.31171108 0.52006802 0.54671028] (Represents the semantic meaning of the current query)
+    User Expertise: 0.03 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 0.45 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.28 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 5.92
+
+------------------------------
+Step 6:
+Action: Refine Query (3)
+
+Result:
+
+    Query Embedding: [0.96958463 0.77513282 0.93949894 0.89482735 0.59789998] (Represents the semantic meaning of the current query)
+    User Expertise: 0.03 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 0.40 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.92 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 6.61
+
+------------------------------
+Step 7:
+Action: Activate IE (1)
+
+Result:
+
+    Query Embedding: [0.96958463 0.77513282 0.93949894 0.89482735 0.59789998] (Represents the semantic meaning of the current query)
+    User Expertise: 0.03 (0: Novice, 1: Expert)
+    Active Engine: IE
+    Task Progress: 0.55 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.92 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 10.11
+
+------------------------------
+Step 8:
+Action: Refine Query (3)
+
+Result:
+
+    Query Embedding: [0.0884925  0.19598286 0.04522729 0.32533033 0.38867729] (Represents the semantic meaning of the current query)
+    User Expertise: 0.03 (0: Novice, 1: Expert)
+    Active Engine: IE
+    Task Progress: 0.50 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.27 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 6.36
+
+------------------------------
+Step 9:
+Action: Refine Query (3)
+
+Result:
+
+    Query Embedding: [0.82873751 0.35675333 0.28093451 0.54269608 0.14092422] (Represents the semantic meaning of the current query)
+    User Expertise: 0.03 (0: Novice, 1: Expert)
+    Active Engine: IE
+    Task Progress: 0.45 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.80 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 6.51
+
+------------------------------
+Step 10:
+Action: Activate IE (1)
+
+Result:
+
+    Query Embedding: [0.82873751 0.35675333 0.28093451 0.54269608 0.14092422] (Represents the semantic meaning of the current query)
+    User Expertise: 0.03 (0: Novice, 1: Expert)
+    Active Engine: IE
+    Task Progress: 0.60 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.80 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 10.01
+
+------------------------------
+Step 11:
+Action: Query FE (0)
+
+Result:
+
+    Query Embedding: [0.82873751 0.35675333 0.28093451 0.54269608 0.14092422] (Represents the semantic meaning of the current query)
+    User Expertise: 0.03 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 0.70 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.85 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 11.26
+
+------------------------------
+Step 12:
+Action: Engage PFC (2)
+
+Result:
+
+    Query Embedding: [0.82873751 0.35675333 0.28093451 0.54269608 0.14092422] (Represents the semantic meaning of the current query)
+    User Expertise: 0.03 (0: Novice, 1: Expert)
+    Active Engine: PFC
+    Task Progress: 0.75 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.95 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 12.26
+
+------------------------------
+Step 13:
+Action: Refine Query (3)
+
+Result:
+
+    Query Embedding: [0.07455064 0.98688694 0.77224477 0.19871568 0.00552212] (Represents the semantic meaning of the current query)
+    User Expertise: 0.03 (0: Novice, 1: Expert)
+    Active Engine: PFC
+    Task Progress: 0.70 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.82 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 9.08
+
+------------------------------
+Step 14:
+Action: Engage PFC (2)
+
+Result:
+
+    Query Embedding: [0.07455064 0.98688694 0.77224477 0.19871568 0.00552212] (Represents the semantic meaning of the current query)
+    User Expertise: 0.03 (0: Novice, 1: Expert)
+    Active Engine: PFC
+    Task Progress: 0.75 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.92 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 12.08
+
+------------------------------
+Step 15:
+Action: Query FE (0)
+
+Result:
+
+    Query Embedding: [0.07455064 0.98688694 0.77224477 0.19871568 0.00552212] (Represents the semantic meaning of the current query)
+    User Expertise: 0.03 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 0.85 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.97 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 13.33
+
+------------------------------
+Step 16:
+Action: Refine Query (3)
+
+Result:
+
+    Query Embedding: [0.70685734 0.72900717 0.77127035 0.07404465 0.35846573] (Represents the semantic meaning of the current query)
+    User Expertise: 0.03 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 0.80 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.12 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 8.58
+
+------------------------------
+Step 17:
+Action: Query FE (0)
+
+Result:
+
+    Query Embedding: [0.70685734 0.72900717 0.77127035 0.07404465 0.35846573] (Represents the semantic meaning of the current query)
+    User Expertise: 0.03 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 0.90 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.17 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 9.83
+
+------------------------------
+Step 18:
+Action: Activate IE (1)
+
+Result:
+
+    Query Embedding: [0.70685734 0.72900717 0.77127035 0.07404465 0.35846573] (Represents the semantic meaning of the current query)
+    User Expertise: 0.03 (0: Novice, 1: Expert)
+    Active Engine: IE
+    Task Progress: 1.05 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.17 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 31.33
+
+Episode terminated: Task completed successfully
+
+Episode 2 finished.
+Total steps: 18
+Total reward: 163.46
+
+==================================================
+Episode: 3
+==================================================
+Initial State:
+
+    Query Embedding: [0.86310343 0.62329813 0.33089802 0.06355835 0.31098232] (Represents the semantic meaning of the current query)
+    User Expertise: 0.33 (0: Novice, 1: Expert)
+    Active Engine: None
+    Task Progress: 0.00 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.73 (0: Not relevant, 1: Highly relevant)
+    
+
+------------------------------
+Step 1:
+Action: Query FE (0)
+
+Result:
+
+    Query Embedding: [0.86310343 0.62329813 0.33089802 0.06355835 0.31098232] (Represents the semantic meaning of the current query)
+    User Expertise: 0.33 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 0.10 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.78 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 4.90
+
+------------------------------
+Step 2:
+Action: Refine Query (3)
+
+Result:
+
+    Query Embedding: [0.63755747 0.88721274 0.47221493 0.11959425 0.71324479] (Represents the semantic meaning of the current query)
+    User Expertise: 0.33 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 0.05 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.76 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 4.30
+
+------------------------------
+Step 3:
+Action: Activate IE (1)
+
+Result:
+
+    Query Embedding: [0.63755747 0.88721274 0.47221493 0.11959425 0.71324479] (Represents the semantic meaning of the current query)
+    User Expertise: 0.33 (0: Novice, 1: Expert)
+    Active Engine: IE
+    Task Progress: 0.20 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.76 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 5.80
+
+------------------------------
+Step 4:
+Action: Query FE (0)
+
+Result:
+
+    Query Embedding: [0.63755747 0.88721274 0.47221493 0.11959425 0.71324479] (Represents the semantic meaning of the current query)
+    User Expertise: 0.33 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 0.30 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.81 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 7.05
+
+------------------------------
+Step 5:
+Action: Activate IE (1)
+
+Result:
+
+    Query Embedding: [0.63755747 0.88721274 0.47221493 0.11959425 0.71324479] (Represents the semantic meaning of the current query)
+    User Expertise: 0.33 (0: Novice, 1: Expert)
+    Active Engine: IE
+    Task Progress: 0.45 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.81 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 8.55
+
+------------------------------
+Step 6:
+Action: Query FE (0)
+
+Result:
+
+    Query Embedding: [0.63755747 0.88721274 0.47221493 0.11959425 0.71324479] (Represents the semantic meaning of the current query)
+    User Expertise: 0.33 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 0.55 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.86 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 9.80
+
+------------------------------
+Step 7:
+Action: Activate IE (1)
+
+Result:
+
+    Query Embedding: [0.63755747 0.88721274 0.47221493 0.11959425 0.71324479] (Represents the semantic meaning of the current query)
+    User Expertise: 0.33 (0: Novice, 1: Expert)
+    Active Engine: IE
+    Task Progress: 0.70 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.86 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 11.30
+
+------------------------------
+Step 8:
+Action: Query FE (0)
+
+Result:
+
+    Query Embedding: [0.63755747 0.88721274 0.47221493 0.11959425 0.71324479] (Represents the semantic meaning of the current query)
+    User Expertise: 0.33 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 0.80 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.91 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 12.55
+
+------------------------------
+Step 9:
+Action: Query FE (0)
+
+Result:
+
+    Query Embedding: [0.63755747 0.88721274 0.47221493 0.11959425 0.71324479] (Represents the semantic meaning of the current query)
+    User Expertise: 0.33 (0: Novice, 1: Expert)
+    Active Engine: FE
+    Task Progress: 0.90 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.96 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 13.80
+
+------------------------------
+Step 10:
+Action: Activate IE (1)
+
+Result:
+
+    Query Embedding: [0.63755747 0.88721274 0.47221493 0.11959425 0.71324479] (Represents the semantic meaning of the current query)
+    User Expertise: 0.33 (0: Novice, 1: Expert)
+    Active Engine: IE
+    Task Progress: 1.05 (0: Not started, 1: Completed)
+    Knowledge Base Relevance: 0.96 (0: Not relevant, 1: Highly relevant)
+    
+Reward: 35.30
+
+Episode terminated: Task completed successfully
+
+Episode 3 finished.
+Total steps: 10
+Total reward: 113.38
+
+Overall Statistics:
+Average Reward per Episode: 146.89
+Average Steps per Episode: 14.67
+Successful Episodes: 3/3 (100.00%)
